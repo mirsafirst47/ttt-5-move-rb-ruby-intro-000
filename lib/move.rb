@@ -8,13 +8,9 @@ end
 
 def input_to_index("1"-"9")
   ("1"-"9").to_i-1
-  user_input = "2"
-  ("1"-"9").to_i-1 = input_to_index(2)
 end
 
-def move(board, 2, "X")
-  board[2] = "X"
-end
+
 
 
 
