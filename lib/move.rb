@@ -11,9 +11,9 @@ def input_to_index(user_input)
   user_input = ("1 - 9").to_i
 end
 
-def move(board, index, X)
+def move(board, input_to_index, X)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  board[index] = ("X")
+  board[input_to_index] = ("X")
 end
 
 
