@@ -7,7 +7,7 @@ puts "Where would you like to go?"
 
 user_input = gets.strip
 
-move(board, 2, "X")
+move(board, user_input, "X")
 
 
 # Code your CLI Here
