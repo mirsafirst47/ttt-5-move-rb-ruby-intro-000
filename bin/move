@@ -5,9 +5,14 @@ puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 
-user_input = gets.strip
+input = gets.strip
+index = input_to_index(input)
+move(board, index)
+display_board(board)
 
-move(board, 2, "X")
+
+
+
 
 
 # Code your CLI Here
