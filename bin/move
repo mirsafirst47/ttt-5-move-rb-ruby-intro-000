@@ -9,4 +9,5 @@ user_input = gets.strip
 
 move(board, 2, "X")
 
+
 # Code your CLI Here
